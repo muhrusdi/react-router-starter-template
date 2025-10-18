@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to React Router + Cloudflare Workers!
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/react-router-starter-template)
@@ -7,6 +8,11 @@
 <!-- dash-content-start -->
 
 A modern, production-ready template for building full-stack React applications using [React Router](https://reactrouter.com/) and the [Cloudflare Vite plugin](https://developers.cloudflare.com/workers/vite-plugin/).
+=======
+# Welcome to React Router!
+
+A modern, production-ready template for building full-stack React applications using React Router.
+>>>>>>> 1cf355e (Initialize web application via create-cloudflare CLI)
 
 ## Features
 
@@ -17,6 +23,7 @@ A modern, production-ready template for building full-stack React applications u
 - 🔒 TypeScript by default
 - 🎉 TailwindCSS for styling
 - 📖 [React Router docs](https://reactrouter.com/)
+<<<<<<< HEAD
 - 🔎 Built-in Observability to monitor your Worker
 <!-- dash-content-end -->
 
@@ -30,6 +37,11 @@ npm create cloudflare@latest -- --template=cloudflare/templates/react-router-sta
 
 A live public deployment of this template is available at [https://react-router-starter-template.templates.workers.dev](https://react-router-starter-template.templates.workers.dev)
 
+=======
+
+## Getting Started
+
+>>>>>>> 1cf355e (Initialize web application via create-cloudflare CLI)
 ### Installation
 
 Install the dependencies:
@@ -48,12 +60,21 @@ npm run dev
 
 Your application will be available at `http://localhost:5173`.
 
+<<<<<<< HEAD
 ## Typegen
 
 Generate types for your Cloudflare bindings in `wrangler.json`:
 
 ```sh
 npm run typegen
+=======
+## Previewing the Production Build
+
+Preview the production build locally:
+
+```bash
+npm run preview
+>>>>>>> 1cf355e (Initialize web application via create-cloudflare CLI)
 ```
 
 ## Building for Production
@@ -64,6 +85,7 @@ Create a production build:
 npm run build
 ```
 
+<<<<<<< HEAD
 ## Previewing the Production Build
 
 Preview the production build locally:
@@ -83,6 +105,13 @@ npm run build
 ```
 
 And deploy it:
+=======
+## Deployment
+
+Deployment is done using the Wrangler CLI.
+
+To build and deploy directly to production:
+>>>>>>> 1cf355e (Initialize web application via create-cloudflare CLI)
 
 ```sh
 npm run deploy

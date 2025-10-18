@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/macos,node,git
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,node,git
 
@@ -201,3 +202,23 @@ dist
 ### React Router ###
 .react-router/
 /build/
+=======
+.DS_Store
+.env
+/node_modules/
+*.tsbuildinfo
+
+# React Router
+/.react-router/
+/build/
+
+# Cloudflare
+.mf
+.wrangler
+.dev.vars*
+worker-configuration.d.ts
+
+
+!.dev.vars.example
+!.env.example
+>>>>>>> 1cf355e (Initialize web application via create-cloudflare CLI)
